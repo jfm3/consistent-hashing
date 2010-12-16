@@ -1,0 +1,9 @@
+This program does some monte carlo testing of both naive and
+consistent hashing of keys to sharded caches of a database.  Run
+without the -d argument, it first prints out the overall hit ratio for
+naive hashing and then the overall hit ratio for consistent hashing,
+after doing several random tests.  One can control various sizes and
+measures with command line arguments, but the defaults will nearly
+always show how consistent hashing is better.  Run with the -d
+argument, many more details about what the program is doing are
+printed.
